@@ -10,6 +10,7 @@
     },
     "keywords": [],
     "dependencies": {
+        "@adiwajshing/baileys": "^5.0.0",
         "@bot-whatsapp/bot": "latest",
         "@bot-whatsapp/cli": "latest",
         "@bot-whatsapp/database": "latest",
@@ -18,6 +19,8 @@
         "@whiskeysockets/baileys": "6.5.0",
         "cache-manager": "5.2.4",
         "dotenv": "^16.4.5",
+        "mongodb": "^6.6.1",
+        "openai": "^3.3.0",
         "wa-sticker-formatter": "4.4.4"
     },
     "devDependencies": {

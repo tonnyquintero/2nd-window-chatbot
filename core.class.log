@@ -2,10 +2,60 @@
   key: {
     remoteJid: '573234257398@s.whatsapp.net',
     fromMe: false,
-    id: '1009AE696C5453D5046939FE9EDAD269',
+    id: 'F989EEA4FEF02FAC6AA9D9A3BEDD7779',
     participant: undefined
   },
-  messageTimestamp: 1715208850,
+  messageTimestamp: 1715210356,
+  pushName: 'Anthony',
+  broadcast: false,
+  message: Message {
+    audioMessage: AudioMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7117-24/17691229_741218084850340_7075844882974459972_n.enc?ccb=11-4&oh=01_Q5AaIOYRtrMvOC_Kp_NUuq8X6BUYMzgZ5dwqjAJqwFL-GKp8&oe=66635F6D&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'audio/ogg; codecs=opus',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 3,
+      ptt: true,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7117-24/17691229_741218084850340_7075844882974459972_n.enc?ccb=11-4&oh=01_Q5AaIOYRtrMvOC_Kp_NUuq8X6BUYMzgZ5dwqjAJqwFL-GKp8&oe=66635F6D&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      waveform: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_voice_note__8072e5cb-f6fe-4d51-b920-960bccf0b089',
+  from: '573234257398'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7526ee7d-e1d6-458d-8a7e-c8e4be66a870',
+  keyword: 'key_3f0e4d1a-da32-4784-884e-6c6c1e4689a2',
+  answer: 'Procesando nota de voz...',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'c9c2fce34a5137f0eb76ea6be27e71ff'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573234257398@s.whatsapp.net',
+    fromMe: false,
+    id: '67CFFDA885617A5F1B5D921C2E3AEA65',
+    participant: undefined
+  },
+  messageTimestamp: 1715210366,
   pushName: 'Anthony',
   broadcast: false,
   message: Message {
@@ -19,11 +69,11 @@
   from: '573234257398'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1ab2a381-ef33-455a-a5b0-8b64bf10c98d',
-  keyword: 'key_3404d4f8-01aa-45f5-bd40-eb7b4d1eec08',
-  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  ref: 'ans_dd2ab327-6174-4cf7-9f6d-bd179fe8e004',
+  keyword: 'key_dbc9960a-b4d8-4e76-b0d1-19a5524e3146',
+  answer: 'Hola Bienvenido a tu restaurante 😋',
   options: {
-    media: null,
+    media: 'https://www.sus-medicos.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FmenuRestaurante.2e9ef668.png&w=1080&q=75',
     buttons: [],
     capture: false,
     child: null,
@@ -34,31 +84,43 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'ea564568cdd493cf9beefa0bca507c21'
+  refSerialize: '986dfaf7fe793733585f4d37f4984bbc'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_91b93129-a715-4e09-bba4-12f426fb22bb',
-  keyword: 'ans_1ab2a381-ef33-455a-a5b0-8b64bf10c98d',
-  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
-    '👉 *doc* para ver la documentación\n' +
-    '👉 *gracias*  para ver la lista de videos\n' +
-    '👉 *discord* unirte al discord',
+  ref: 'ans_9e6cea9e-7f34-4336-a8b9-532b39fd0c89',
+  keyword: 'ans_dd2ab327-6174-4cf7-9f6d-bd179fe8e004',
+  answer: 'En que te podemos ayudar?',
   options: {
     media: null,
     buttons: [],
-    capture: false,
+    capture: true,
     child: null,
     delay: 0,
     idle: null,
     ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
+    nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '89e0c30b30d74f90d1f2eef8e08065a4'
+  refSerialize: 'd66b8ea6f7bec8bead5d327f0e671c61'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573234257398@s.whatsapp.net',
+    fromMe: false,
+    id: 'D2097E891E5CEA5D4744C24C7BA9A435',
+    participant: undefined
+  },
+  messageTimestamp: 1715210377,
+  pushName: 'Anthony',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tienen bebidas?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Tienen bebidas?',
+  from: '573234257398'
 }
